@@ -1,0 +1,14 @@
+region                      = "us-east-1"
+vpc_cidr                    = "10.10.10.0/24"
+public_subnet_cidr          = "10.10.10.0/28"
+jump_subnet_cidr            = "10.10.10.16/28"
+private_subnet1_cidr        = "10.10.10.32/28"
+private_subnet2_cidr        = "10.10.10.48/28"
+primary_availability_zone1  = "us-east-1a"
+primary_availability_zone2  = "us-east-1b"
+db_username                 = "admin"
+db_password                 = "admin123"
+base_ami                    = "ami-0a9a48ce4458e384e"
+sns_email                   = "dlrasha14@gmail.com"
+asg_desired_capacity        = 2
+
